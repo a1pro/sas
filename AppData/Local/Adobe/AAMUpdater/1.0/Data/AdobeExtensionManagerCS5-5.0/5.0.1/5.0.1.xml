@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!-- THIS IS A TEMPLATE FILE WITH SAMPLE VALUES FILLED IN. PLEASE REVIEW AND UPDATE FOR YOUR INSTALLER -->
+  <!-- Its Schema is available here public/Common/xplat/schema/CSUManifest.xsd -->
+  <Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd" CSUVersion="1.0">    <UpdateID>5.0.1</UpdateID>
+
+    <OwningChannel><!-- Channel ID which owns this update -->AdobeExtensionManagerCS5-5.0</OwningChannel>
+<!-- One for each locale to be displayed in CS Updater-->
+  <DisplayName default="en_US">
+                    <en_US>Adobe Extension Manager CS5 5.0 Update</en_US>
+					<cs_CZ>Aktualizace aplikace Adobe Extension Manager CS5 5.0</cs_CZ>
+					<da_DK>Adobe Extension Manager CS5 5.0 Opdatering</da_DK>
+					<de_DE>Update für Adobe Extension Manager CS5 5.0</de_DE>
+					<es_ES>Actualización de Adobe Extension Manager CS5 5.0</es_ES>
+					<fi_FI>Adobe Extension Manager CS5 5.0 -päivitys</fi_FI>
+					<fr_FR>Mise à jour d'Adobe Extension Manager CS5 5.0</fr_FR>
+					<hu_HU>Adobe Extension Manager CS5 5.0 – frissítés</hu_HU>
+					<it_IT>Aggiornamento di Adobe Extension Manager CS5 5.0</it_IT>
+					<ja_JP>Adobe Extension Manager CS5 5.0 アップデート</ja_JP>
+					<ko_KR>Adobe Extension Manager CS5 5.0 업데이트</ko_KR>
+					<nb_NO>Oppdatering for Adobe Extension Manager CS5 5.0</nb_NO>
+					<nl_NL>Adobe Extension Manager CS5 5.0-update</nl_NL>
+					<pl_PL>Aktualizacja programu Adobe Extension Manager CS5 5.0</pl_PL>
+					<pt_BR>Atualização do Adobe Extension Manager CS5 5.0</pt_BR>
+					<ro_RO>Actualizare Adobe Extension Manager CS5 5.0</ro_RO>
+					<ru_RU>Обновление Adobe Extension Manager CS5 5.0</ru_RU>
+					<sv_SE>Adobe Extension Manager CS5 5.0 Uppdatering</sv_SE>
+					<tr_TR>Adobe Extension Manager CS5 5.0 Güncellemesi</tr_TR>
+					<uk_UA>Оновлення Adobe Extension Manager CS5 5.0</uk_UA>
+					<zh_CN>Adobe Extension Manager CS5 5.0 更新</zh_CN>
+					<zh_TW>Adobe Extension Manager CS5 5.0 更新</zh_TW>
+                </DisplayName>
+  <!-- One for each locale to be displayed in CS Updater-->
+  <Description default="en_US">
+                    <en_US>This update adds support for extensions which are signed by Adobe with the new root certificate from VeriSign (V3).</en_US>
+					<cs_CZ>Tato aktualizace přidává podporu rozšíření podepsaných společností Adobe pomocí nového kořenového certifikátu VeriSign (V3).</cs_CZ>
+					<da_DK>Denne opdatering tilføjer understøttelse af udvidelser, der er signeret af Adobe med det nye rodcertifikat fra VeriSign (V3).</da_DK>
+					<de_DE>Dieses Update ergänzt die Unterstützung für Erweiterungen, die von Adobe mit dem neuen VeriSign-Stammzertifikat (V3) signiert wurden.</de_DE>
+					<es_ES>Esta actualización proporciona compatibilidad con extensiones firmadas por Adobe con el nuevo certificado raíz de VeriSign (V3).</es_ES>
+					<fi_FI>Tämä päivitys lisää tuen Adoben allekirjoittamille laajennuksille, joissa on uusi VeriSign-juurivarmenne (V3).</fi_FI>
+					<fr_FR>Cette mise à jour permet la prise en charge d'extensions signées par Adobe via le nouveau certificat racine de VeriSign (V3).</fr_FR>
+					<hu_HU>Ez a frissítés lehetővé teszi az Adobe új, VeriSign (V3) főtanúsítványával aláírt kiterjesztések használatát.</hu_HU>
+					<it_IT>Questo aggiornamento aggiunge il supporto per estensioni firmate da Adobe con il nuovo certificato radice VeriSign (V3).</it_IT>
+					<ja_JP>このアップデートは、VeriSign (V3) の新しいルート証明書を使用してアドビによって署名された拡張機能のサポートを追加します。</ja_JP>
+					<ko_KR>이 업데이트는  VeriSign(V3)의 새로운 루트 인증서를 사용하여 Adobe에서 승인한 확장 지원을 추가합니다.</ko_KR>
+					<nb_NO>Denne oppdateringen gir støtte for tilleggsmoduler som er signert av Adobe med det nye rotsertifikatet fra VeriSign (V3).</nb_NO>
+					<nl_NL>Deze update voegt ondersteuning toe voor extensies die door Adobe zijn ondertekend met het nieuwe hoofdcertificaat van VeriSign (V3).</nl_NL>
+					<pl_PL>W ramach tej aktualizacji dodano obsługę rozszerzeń podpisanych przez firmę Adobe za pomocą nowego certyfikatu głównego od VeriSign (V3).</pl_PL>
+					<pt_BR>Esta atualização adiciona suporte para extensões que são assinadas pela Adobe com o novo certificado raiz do VeriSign (V3).</pt_BR>
+					<ro_RO>Această actualizare oferă suport pentru extensiile semnate de Adobe cu noul certificat rădăcină emis de VeriSign (V3).</ro_RO>
+					<ru_RU>В этом обновлении добавлена поддержка расширений, которые подписаны Adobe с помощью нового корневого сертификата от VeriSign (V3).</ru_RU>
+					<sv_SE>Den här uppdateringen ger stöd för tillägg som är signerade av Adobe med det nya rotcertifikatet från VeriSign (V3).</sv_SE>
+					<tr_TR>Bu güncelleme, Adobe tarafından yeni VeriSign (V3) kök sertifikası ile imzalanan uzantılara destek sağlar.</tr_TR>
+					<uk_UA>У цьому оновленні надається підтримка для розширень, підписаних Adobe за допомогою нового кореневого сертифіката від VeriSign (V3).</uk_UA>
+					<zh_CN>此更新增加了对 Adobe 采用 VeriSign (V3) 的新根证书签名的扩展的支持。</zh_CN>
+					<zh_TW>本次更新增加了對擴充功能的支援，這些擴充功能是由 Adobe 透過 Verisign (V3) 的全新根憑證所簽署。</zh_TW>
+                </Description>
+  <AffectedChannels>
+    <!--Channel IDs which could get affected by this update.-->
+    <ChannelID>AdobeExtensionManagerCS5-5.0</ChannelID>
+  </AffectedChannels>
+  <InstallFiles>
+    <File RIBSBased="1">
+      <Name>Setup.zip</Name>
+      <Type>1</Type>
+	  <Signature>X5ZHjAOzYY80pazUyq9nqzzyt5gEwraPCGnTN66cXgwTm5E0o/D7bleBoyiVSokiukf4IVWVElIDD2t1QGnLvNukThMvw0FsAEqTtcn6lAWjOAFAHwnmZ5f4YEmkiAdFBwP+aFSqpqNqqlFllPyx1Vr9KXXMVwENBiDv4G9xyTI=</Signature>
+      <ExecutableName>AdobePatchInstaller.exe</ExecutableName>
+      <Size>21389227</Size>
+    </File>
+  </InstallFiles>
+  <NeedsReboot>false</NeedsReboot>
+</Manifest>
